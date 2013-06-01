@@ -35,6 +35,8 @@
  
  Assertion Failed: expression, file filename, line line number
  
+ Example of usage: insist(frame);
+ 
  @since 1.0
  @version 1.0
  */
