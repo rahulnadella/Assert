@@ -9,6 +9,8 @@ The specifics of the message shown depend on the particular library implementati
 An usual expression format is:  
 **Assertion Failed: expression, file filename, line line number**
  
+To use this function include *insist.h* file in your project 
+ 
 Example of usage: 
 
     insist(frame);
