@@ -6,9 +6,9 @@ If the argument expression of this macro with functional form compares the expre
 The specifics of the message shown depend on the particular library implementation, but it shall at least include: the expression whose assertion failed, the name of the source file, and the line number where it happened. 
 
 An usual expression format is:  
-**Assertion Failed: expression, file filename, line line number**
+*Assertion Failed: expression, file filename, line line number*
  
-To use this function include *insist.h* file in your project 
+To use this function include **insist.h** file in your project 
  
 Example of usage: 
 
