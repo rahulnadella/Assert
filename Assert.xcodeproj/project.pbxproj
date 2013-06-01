@@ -13,14 +13,9 @@
 		FC2B83BC175A8ADB009835FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC2B83BA175A8ADB009835FF /* InfoPlist.strings */; };
 		FC2B83BE175A8ADB009835FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B83BD175A8ADB009835FF /* main.m */; };
 		FC2B83C2175A8ADB009835FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B83C1175A8ADB009835FF /* AppDelegate.m */; };
-		FC2B83C4175A8ADB009835FF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2B83C3175A8ADB009835FF /* Default.png */; };
-		FC2B83C6175A8ADB009835FF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2B83C5175A8ADB009835FF /* Default@2x.png */; };
 		FC2B83C8175A8ADB009835FF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2B83C7175A8ADB009835FF /* Default-568h@2x.png */; };
-		FC2B83D0175A8ADB009835FF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2B83CF175A8ADB009835FF /* SenTestingKit.framework */; };
 		FC2B83D1175A8ADB009835FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2B83B1175A8ADB009835FF /* UIKit.framework */; };
 		FC2B83D2175A8ADB009835FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2B83B3175A8ADB009835FF /* Foundation.framework */; };
-		FC2B83DA175A8ADB009835FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC2B83D8175A8ADB009835FF /* InfoPlist.strings */; };
-		FC2B83DD175A8ADB009835FF /* AssertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2B83DC175A8ADB009835FF /* AssertTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +39,9 @@
 		FC2B83BF175A8ADB009835FF /* Assert-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Assert-Prefix.pch"; sourceTree = "<group>"; };
 		FC2B83C0175A8ADB009835FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC2B83C1175A8ADB009835FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FC2B83C3175A8ADB009835FF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		FC2B83C5175A8ADB009835FF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FC2B83C7175A8ADB009835FF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FC2B83CE175A8ADB009835FF /* AssertTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssertTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC2B83CF175A8ADB009835FF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		FC2B83D7175A8ADB009835FF /* AssertTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AssertTests-Info.plist"; sourceTree = "<group>"; };
-		FC2B83D9175A8ADB009835FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FC2B83DB175A8ADB009835FF /* AssertTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssertTests.h; sourceTree = "<group>"; };
-		FC2B83DC175A8ADB009835FF /* AssertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssertTests.m; sourceTree = "<group>"; };
+		FC2B83E6175A8B24009835FF /* insist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = insist.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC2B83D0175A8ADB009835FF /* SenTestingKit.framework in Frameworks */,
 				FC2B83D1175A8ADB009835FF /* UIKit.framework in Frameworks */,
 				FC2B83D2175A8ADB009835FF /* Foundation.framework in Frameworks */,
 			);
@@ -83,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				FC2B83B7175A8ADB009835FF /* Assert */,
-				FC2B83D5175A8ADB009835FF /* AssertTests */,
 				FC2B83B0175A8ADB009835FF /* Frameworks */,
 				FC2B83AF175A8ADB009835FF /* Products */,
 			);
@@ -104,7 +91,6 @@
 				FC2B83B1175A8ADB009835FF /* UIKit.framework */,
 				FC2B83B3175A8ADB009835FF /* Foundation.framework */,
 				FC2B83B5175A8ADB009835FF /* CoreGraphics.framework */,
-				FC2B83CF175A8ADB009835FF /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,8 +98,7 @@
 		FC2B83B7175A8ADB009835FF /* Assert */ = {
 			isa = PBXGroup;
 			children = (
-				FC2B83C0175A8ADB009835FF /* AppDelegate.h */,
-				FC2B83C1175A8ADB009835FF /* AppDelegate.m */,
+				FC2B83E6175A8B24009835FF /* insist.h */,
 				FC2B83B8175A8ADB009835FF /* Supporting Files */,
 			);
 			path = Assert;
@@ -122,32 +107,13 @@
 		FC2B83B8175A8ADB009835FF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FC2B83C0175A8ADB009835FF /* AppDelegate.h */,
+				FC2B83C1175A8ADB009835FF /* AppDelegate.m */,
 				FC2B83B9175A8ADB009835FF /* Assert-Info.plist */,
 				FC2B83BA175A8ADB009835FF /* InfoPlist.strings */,
 				FC2B83BD175A8ADB009835FF /* main.m */,
 				FC2B83BF175A8ADB009835FF /* Assert-Prefix.pch */,
-				FC2B83C3175A8ADB009835FF /* Default.png */,
-				FC2B83C5175A8ADB009835FF /* Default@2x.png */,
 				FC2B83C7175A8ADB009835FF /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FC2B83D5175A8ADB009835FF /* AssertTests */ = {
-			isa = PBXGroup;
-			children = (
-				FC2B83DB175A8ADB009835FF /* AssertTests.h */,
-				FC2B83DC175A8ADB009835FF /* AssertTests.m */,
-				FC2B83D6175A8ADB009835FF /* Supporting Files */,
-			);
-			path = AssertTests;
-			sourceTree = "<group>";
-		};
-		FC2B83D6175A8ADB009835FF /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FC2B83D7175A8ADB009835FF /* AssertTests-Info.plist */,
-				FC2B83D8175A8ADB009835FF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -224,8 +190,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC2B83BC175A8ADB009835FF /* InfoPlist.strings in Resources */,
-				FC2B83C4175A8ADB009835FF /* Default.png in Resources */,
-				FC2B83C6175A8ADB009835FF /* Default@2x.png in Resources */,
 				FC2B83C8175A8ADB009835FF /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,7 +198,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC2B83DA175A8ADB009835FF /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +233,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC2B83DD175A8ADB009835FF /* AssertTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,14 +251,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				FC2B83BB175A8ADB009835FF /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		FC2B83D8175A8ADB009835FF /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC2B83D9175A8ADB009835FF /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";

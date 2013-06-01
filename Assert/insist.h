@@ -1,5 +1,5 @@
 /*
- Copyright (c) 2012 D. Finucane
+ Copyright (c) 2013
  
  Permission is hereby granted, free of charge, to any person
  obtaining a copy of this software and associated documentation
@@ -23,15 +23,19 @@
  OTHER DEALINGS IN THE SOFTWARE.
  
  insist.h
- Sunrise_Alarm
+ Assert
  
- Created by Rahul Nadella on 10/25/12.
- Copyright 2012 D. Finucane All rights reserved.
+ Created by Rahul Nadella on 06/01/13.
+ Copyright 2013 Rahul Nadella All rights reserved.
  */
 /*
- This class provides the ability to raise a NSException when a value is nil (NIL check).
+ If the argument expression of this macro with functional form compares equal to zero (i.e., the expression is false), a message is written to the standard error device and abort is called, terminating the program execution.
+ 
+ The specifics of the message shown depend on the particular library implementation, but it shall at least include: the expression whose assertion failed, the name of the source file, and the line number where it happened. A usual expression format is:
+ 
+ Assertion Failed: expression, file filename, line line number
  
  @since 1.0
  @version 1.0
  */
-#define insist(e) if(!(e)) [NSException raise: @"assertion failed." format: @"%@:%d (%s)", [[NSString stringWithCString:__FILE__ encoding:NSUTF8StringEncoding] lastPathComponent], __LINE__, #e]
+#define insist(e) if(!(e)) [NSException raise: @"Assertion Failed." format: @"%@:%d (%s)", [[NSString stringWithCString:__FILE__ encoding:NSUTF8StringEncoding] lastPathComponent], __LINE__, #e]
