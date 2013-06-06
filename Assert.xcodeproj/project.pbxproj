@@ -110,10 +110,10 @@
 				FC2B83C0175A8ADB009835FF /* AppDelegate.h */,
 				FC2B83C1175A8ADB009835FF /* AppDelegate.m */,
 				FC2B83B9175A8ADB009835FF /* Assert-Info.plist */,
-				FC2B83BA175A8ADB009835FF /* InfoPlist.strings */,
-				FC2B83BD175A8ADB009835FF /* main.m */,
 				FC2B83BF175A8ADB009835FF /* Assert-Prefix.pch */,
 				FC2B83C7175A8ADB009835FF /* Default-568h@2x.png */,
+				FC2B83BA175A8ADB009835FF /* InfoPlist.strings */,
+				FC2B83BD175A8ADB009835FF /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -391,6 +391,7 @@
 				FC2B83E2175A8ADB009835FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC2B83E3175A8ADB009835FF /* Build configuration list for PBXNativeTarget "AssertTests" */ = {
 			isa = XCConfigurationList;
@@ -399,6 +400,7 @@
 				FC2B83E5175A8ADB009835FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
