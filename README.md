@@ -13,7 +13,7 @@ An usual expression format is:
  
 To use this function include **insist.h** header file in your project 
  
-Example of usage: 
+*Example of usage:* 
 
     insist(frame);
 
