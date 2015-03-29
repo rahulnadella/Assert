@@ -10,6 +10,9 @@ The specifics of the message shown depend on the particular library implementati
 
 An usual expression format is -->  *Assertion Failed: expression, file filename, line line number*
 
+#####Version
+>Version 1.0 - Design and Implementation of the Assert
+
 Usage
 --------
  
